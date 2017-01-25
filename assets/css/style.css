@@ -63,6 +63,15 @@ h4 {
 		font-family: "Georgia", Times New Roman, Times, serif;
 }
 
+hr {
+		width: 98%;
+		
+		border: 1.5px solid #ddd;
+	
+		
+}
+
+
 #connect-center {
 		font-size: 20px;
 		font-weight: 800;
@@ -242,11 +251,10 @@ a:hover {
 		
 }
 #left-content-inner {
-	margin-left: auto;
-	margin-right: auto;
+		margin-left: auto;
+		margin-right: auto;
 		width: 90%;
 		background: #fff;
-		
 		margin-top: 20px;
 		color: #777;
 		text-align: justify;
@@ -257,7 +265,7 @@ a:hover {
 	
 		height: 160px;
 		margin-left: auto;
-	margin-right: auto;
+		margin-right: auto;
 		background: #fff;
 		width: 90%;
 		border: 2px solid #ddd;
@@ -334,4 +342,83 @@ padding-right: 0px;
 
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#contact-form {
+		line-height: 150%;
+}
+
+.submit-button {
+
+		width: 100px;
+		height: 40px;
+		background: #4aaaa5;
+		color: #fff;
+		border: 0px;
+		font-size: 18px;
+		margin-top: 20px;
+}
+
+.port-box {
+		width: 260px;
+		height: 286px;
+		float: left;
+		margin-left: 20px;
+		background: #ddd;
+		border: 2px solid #ddd;
+		margin-top: 30px;
+		display: inline-block;
+
+
+}
+
+.port-box-lg {
+		width: 98%;
+		background: #ddd;
+		border: 2px solid #ddd;
+		margin-top: 30px;
+		display: inline-block;
+
+}
+
+.port-box-header {
+
+	
+		position: relative;
+		
+		background: #4aaaa5;
+		top: -40px;
+		color: #fff;
+		text-align: center;
+		padding-top: 15px;
+		font-size: 20px;
+
+}
+
+.port-box-header-lg {
+
+	
+		position: relative;
+		width:100%;
+		background: #4aaaa5;
+		top: -20px;
+		color: #fff;
+		text-align: center;
+		padding-top: 15px;
+		font-size: 20px;
+
+}
+
+.box-img {
+		width: 256px;
+display: inline-block;
+
+		
+}
+
+.box-img-lg {
+		width: 100%;
+display: inline-block;
+
+		
 }
